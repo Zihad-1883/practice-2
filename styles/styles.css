@@ -146,3 +146,50 @@ header h1{
     margin-left: -10px;
 }
 
+
+
+/* join-style */
+
+.join{
+    width: 90%;
+    max-width: 1600px;
+    min-height: 482px;
+    margin: 0 auto 120px;
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1) 0%,rgba(255, 0, 0, 0) 100%);
+}
+
+.join-contents{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.join-contents .join-texts h3{
+    color: rgba(7, 2, 17, 1);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.join-texts span{
+    color: rgba(255, 0, 0, 1);
+}
+
+.join-contents button{
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgba(255, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    margin-top: 40px;
+}

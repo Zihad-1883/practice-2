@@ -10,11 +10,16 @@
     }
     
     
+    /* discount-style */
+
     .discount-section{
         width: 90%;
         height: auto;
         margin: 5px auto;
     }
+
+
+    /* welcome-style */
 
 
     .welcome-section {
@@ -68,5 +73,17 @@
         text-align: center;
         margin: 0 auto;
         
+    }
+
+
+    /* join-style */
+
+
+    .join-contents{
+        width: 85%;
+    }
+
+    .join-contents .join-texts h3{
+        font-size: 1.5rem;
     }
 }
