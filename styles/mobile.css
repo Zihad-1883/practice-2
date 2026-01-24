@@ -86,4 +86,43 @@
     .join-contents .join-texts h3{
         font-size: 1.5rem;
     }
+
+    /* offer-style */
+
+    .offer-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    offer-container .left-aside, .right-aside,
+    .left-aside {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .offer-container .offer-image{
+        padding: 10px;
+    }
+
+    .offer-image img{
+        width: 90%;
+        margin: 18px;
+    }
+
+    /* sale-section */
+
+    .sale-image-container{
+        padding-top: 124px;
+    }
+
+    .sale-image-container #box {
+        width: 40%;
+        top: 25%;
+    }
+
+    .sale-image-container #discount{
+        width: 22%;
+    }
 }

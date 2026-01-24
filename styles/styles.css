@@ -193,3 +193,141 @@ header h1{
     border: none;
     margin-top: 40px;
 }
+
+
+/* offer-section-style */
+
+
+.offer-container{
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+
+.offer-container .left-aside>span{
+    color: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 1.2 rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.offer-container .left-aside h2{
+    color: rgba(7, 2, 17, 1);
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 22px;
+    margin-top: 16px ;
+}
+
+.offer-container .left-aside>p{
+    max-width: 393px;
+    min-height: 128px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-container .right-aside h2{
+    color: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.offer-container .right-aside p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 276px;
+    min-height: 96px;
+    margin-bottom: 43px;
+}
+
+.offer-container .offer-image{
+    border: 15px solid rgba(255, 0, 0, 1);
+    border-radius: 50%;
+    /* max-width: 34%; */
+    padding: 50px;
+}
+
+
+/* sale-section-style */
+
+.sale{
+    text-align: center;
+    width: 90%;
+    max-width: 1600px;
+    margin: 120px auto;
+}
+
+
+.sale-texts h5{
+    color: rgba(7, 2, 17, 1);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.sale-texts h1{
+    font-family: Merriweather;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.sale-texts h1>span{
+    color: rgba(255, 0, 0, 1);
+}
+
+.sale-texts p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    max-width: 1000px;
+    min-height: 96px;
+    margin: 0 auto;
+}
+
+.sale-image-container{
+    position: relative;
+    padding-top: 400px;
+}
+
+.sale-image-container #box{
+    position: absolute;
+    width: 30%;
+    top: 27%;
+    left: 15%;
+    /* background: linear-gradient(90.00deg, rgba(255, 255, 255, 1) 0.261%,rgba(29, 29, 27, 1) 100.348%); */
+   
+    
+}
+
+.sale-image-container #discount{
+    position: absolute;
+    width: 15%;
+    top: 10%;
+    right: 10%;
+}
+
+.sale-image-container #red{
+    width: 100%;
+}
+
+
