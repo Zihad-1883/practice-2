@@ -64,6 +64,18 @@ header h1{
     margin-bottom: 48px;
 }
 
+.discount-section h1:hover{
+    animation: wobble 0.6s infinite;
+}
+
+@keyframes wobble {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(3deg); }
+  50% { transform: rotate(-3deg); }
+  75% { transform: rotate(3deg); }
+  100% { transform: rotate(0deg); }
+}
+
 .discount-section h5{
     color: rgba(255, 0, 0, 1);
     font-family: Inter;
@@ -83,9 +95,12 @@ header h1{
 .discount-section img{
     width: 100%;
     min-height: 500px;
+    transition: all ease 1s;
 }
 
-
+.discount-section img:hover{
+    scale: 1.1;
+}
 
 /* welcome-section */
 
@@ -204,8 +219,12 @@ header h1{
     font-weight: 700;
     border: none;
     margin-top: 40px;
+    transition:  all ease 0.5s;
 }
 
+.join-contents button:hover{
+    scale: 1.1;
+}
 
 
 /* offer-section-style */
@@ -269,11 +288,33 @@ header h1{
     margin-bottom: 43px;
 }
 
+.offer-container .right-aside img:hover{
+    animation: shakeY 1s infinite;
+}
+
+@keyframes shakeY {
+  0% { transform: translate(0,0) rotate(0deg); }
+  20% { transform: translate(-5px, 3px) rotate(-5deg); }
+  40% { transform: translate(5px, -3px) rotate(5deg); }
+  60% { transform: translate(-5px, -3px) rotate(-5deg); }
+  80% { transform: translate(5px, 3px) rotate(5deg); }
+  100% { transform: translate(0,0) rotate(0deg); }
+}
+
 .offer-container .offer-image{
     border: 15px solid rgba(255, 0, 0, 1);
     border-radius: 50%;
     /* max-width: 34%; */
     padding: 50px;
+    
+}
+
+.offer-container .offer-image img{
+    transition: all ease 1s;
+}
+
+.offer-container .offer-image img:hover {
+    scale: 1.3;
 }
 
 
@@ -344,6 +385,25 @@ header h1{
     right: 10%;
 }
 
+.sale-image-container #discount:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: 3;
+}
+
+@keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
 .sale-image-container #red{
     width: 100%;
 }
@@ -400,6 +460,11 @@ header h1{
 
 .portfolio .portfolio-image-container img{
     width: 100%;
+    transition: all ease 1s;
+}
+
+.portfolio .portfolio-image-container img:hover{
+    scale: 1.05;
 }
 
 
@@ -420,6 +485,18 @@ header h1{
 .subscribe img{
     margin-top: 80px;
     margin-bottom: 40px;
+}
+
+.subscribe img:hover{
+    animation: message 0.6s 2;
+}
+
+@keyframes message {
+        0% { transform: translateY(0) translateX(0); }
+        25% { transform: translateY(-4px) translateX(-4px); }
+        50% { transform: translateY(4px) translateX(4px); }
+        75% { transform: translateY(-4px) translateX(-4px); }
+        100% { transform: translateY(0) translateX(0px); }
 }
 
 .subscribe h2{
@@ -462,8 +539,12 @@ header h1{
     background-color: rgba(255, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
     font-size: 1.25rem;
+    transition: all ease 0.5s;
 }
 
+.subscribe button:hover{
+    scale: 1.1;
+}
 
 /* footer-section-style */
 
@@ -520,6 +601,11 @@ footer{
 
 .middle-footer img{
     margin: 0 12px;
+    transition: all ease 0.3s;
+}
+
+.middle-footer img:hover{
+    scale: 1.1;
 }
 
 .down-footer{
