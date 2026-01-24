@@ -19,6 +19,10 @@
         width: 80%;
     }
 
+    .new-offer{
+        width: 90%;
+    }
+
     .offer-container{
         display: flex;
         flex-direction: column;
@@ -79,6 +83,55 @@
         border-radius: 50px;
         background-color: rgba(255, 0, 0, 1);
         color: rgba(255, 255, 255, 1);
+    }
+
+    footer {
+        background: rgba(7, 2, 17, 1);
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .footer-container {
+        border: 2px solid;
+        width: 90%;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    .upper-footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 120px;
+        margin-bottom: 50px;
+        gap: 20px;
+    }
+
+    .middle-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .down-footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 120px;
+        gap: 20px;
+    }
+
+    .middle-footer {
+        text-align: center;
+        margin: 48px auto;
+    }
+    
+    .upper-footer>div:nth-child(2)>div{
+        margin-bottom: 8px;
+    }
+
+    hr{
+        width: 100%;
     }
 }
 

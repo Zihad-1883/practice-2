@@ -99,7 +99,7 @@
         gap: 50px;
     }
 
-    offer-container .left-aside, .right-aside,
+    .offer-container .left-aside, .right-aside,
     .left-aside {
         max-width: 100%;
         text-align: center;
@@ -163,4 +163,29 @@
         background-color: rgba(255, 0, 0, 1);
         color: rgba(255, 255, 255, 1);
     }
+
+    /* footer-style */
+
+    .upper-footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 120px;
+        margin-bottom: 50px;
+        gap: 30px;
+    }
+
+    .middle-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .down-footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 120px;
+        gap: 20px;
+    }
+
+
 }
