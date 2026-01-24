@@ -78,6 +78,9 @@
 
     /* join-style */
 
+    .join{
+        margin-bottom: 50px;
+    }
 
     .join-contents{
         width: 85%;
@@ -124,5 +127,9 @@
 
     .sale-image-container #discount{
         width: 22%;
+    }
+
+    .portfolio .portfolio-image-container{
+        grid-template-columns: repeat(1,1fr);
     }
 }

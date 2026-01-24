@@ -49,6 +49,10 @@
     .sale-image-container #box{
             top: 43%;
     }
+
+    .portfolio .portfolio-image-container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 @media screen and (min-width:993px) and (max-width:1450px){
