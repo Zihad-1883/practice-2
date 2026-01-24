@@ -53,9 +53,61 @@
     .portfolio .portfolio-image-container{
         grid-template-columns: repeat(2,1fr);
     }
+
+    #input{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .subscribe input[type="email"]{
+        width: 50%;
+        text-align: center;
+        padding: 20px;
+        font-size: 1.25rem;
+        border: none;
+        border-radius: 50px;
+        background: rgba(255, 255, 255, 1);
+    }
+
+    .subscribe button{
+        width: 50%;
+        padding: 20px;
+        font-size: 1.25rem;
+        border: none;
+        border-radius: 50px;
+        background-color: rgba(255, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+    }
 }
 
 @media screen and (min-width:993px) and (max-width:1450px){
+
+      .offer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .offer-container .left-aside, .right-aside,
+    .left-aside {
+        max-width: 100%;
+    }
+
+    .right-aside{
+        display: flex;
+        gap: 50px;
+    }
+
+  .offer-container .offer-image {
+        border: 15px solid rgba(255, 0, 0, 1);
+        border-radius: 50%;
+        /* max-width: 34%; */
+        padding: 20px;
+    }
+    
+
     .sale-image-container{
         padding-top: 300px;
     }
@@ -63,4 +115,5 @@
     .sale-image-container #box{
         top: 35%;
     }
+
 }

@@ -129,7 +129,38 @@
         width: 22%;
     }
 
+    /* portfolio-style */
+
     .portfolio .portfolio-image-container{
         grid-template-columns: repeat(1,1fr);
+    }
+
+    /* subscribe-style */
+
+        #input{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .subscribe input[type="email"]{
+        width: 50%;
+        text-align: center;
+        padding: 20px;
+        font-size: 1.25rem;
+        border: none;
+        border-radius: 50px;
+        background: rgba(255, 255, 255, 1);
+    }
+
+    .subscribe button{
+        width: 50%;
+        padding: 20px;
+        font-size: 1.25rem;
+        border: none;
+        border-radius: 50px;
+        background-color: rgba(255, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
     }
 }
